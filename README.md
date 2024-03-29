@@ -22,6 +22,8 @@ chmod +x ~/.local/bin/rust-analyzer
 
 * terminal configuration - `alacritty`: .alacritty.yml should go to ~/
 
+* tmux configuration should go to ~/
+
 * additional .zshrc config for oh-my-zsh usage
 
 ```
