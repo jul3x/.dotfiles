@@ -20,6 +20,8 @@ curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust
 chmod +x ~/.local/bin/rust-analyzer
 ```
 
+* terminal configuration - `alacritty`: .alacritty.yml should go to ~/
+
 * additional .zshrc config for oh-my-zsh usage
 
 ```
