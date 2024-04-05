@@ -30,7 +30,7 @@ shell:
   args: ["-l"]
 
 window:
-  opacity: 0.8
+  opacity: 0.97
   blur: true
   startup_mode: "Maximized"
   dimensions:
