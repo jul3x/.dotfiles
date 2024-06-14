@@ -112,7 +112,7 @@ SAVEHIST=20000
 ##
 # ZAW
 # Emacs-helm like searching of branches, recent directories and command history
-source /etc/zsh_zaw/zaw.zsh
+source $ZSH/custom/plugins/zsh_zaw/zaw.zsh
 zstyle ':filter-select' max-lines 10
 zstyle ':filter-select' hist-find-no-dups yes
 
@@ -217,9 +217,12 @@ export EDITOR='vim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vpn="sudo openfortivpn -o"
+alias vpn="sudo openvpn ~/operations/proton.ovpn"
+alias emacs="emacs -nw"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
