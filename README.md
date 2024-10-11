@@ -13,7 +13,7 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 ```
 pip install python-lsp-server[all]
 apt install clangd clang-format npm
-npm -g install eslint prettier
+npm -g install eslint prettier eslint-cli volar
 
 mkdir -p ~/.local/bin
 curl -L https://github.com/rust-lang/rust-analyzer/releases/latest/download/rust-analyzer-x86_64-unknown-linux-gnu.gz | gunzip -c - > ~/.local/bin/rust-analyzer
