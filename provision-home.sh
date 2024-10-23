@@ -5,7 +5,8 @@ sudo apt install python3 python-is-python3 ipython3 pip \
 	rclone git vim emacs alacritty zsh clangd clang-format \
 	pass openvpn openresolv cmake cmake-format npm tmux \
 	network-manager-openvpn-gnome gopls \
-	zip htop virt-manager qemu-system
+	zip htop virt-manager qemu-system \
+	brave thunderbird \
 	-y 
 git submodule update --init --recursive
 
