@@ -12,7 +12,7 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 ```
 pip install python-lsp-server[all]
-apt install clangd clang-format npm
+apt install clangd clang-format npm gopls
 npm -g install eslint prettier eslint-cli volar
 
 mkdir -p ~/.local/bin
@@ -34,3 +34,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 * .zshrc and .p10k.zsh goes to ~/
 
+* thunderbird with self@j3x.dev conf
